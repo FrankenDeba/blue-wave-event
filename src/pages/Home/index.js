@@ -8,7 +8,7 @@ import LOGO from "../../assets/Header/logo.png";
 import Header from "../../Components/Header/Header.js";
 import Footer from "../../Components/Footer/Footer";
 import Work from "../../Components/Work/Work";
-import callUs from "../../Components/callUs/callUs";
+import CallUs from "../../Components/CallUs/CallUs";
 
 
 
@@ -18,7 +18,7 @@ const Home =(props)=>{
          <Navbar/>
         
         <Landing src={LANDING_IMG}/>
-        <callUs/>
+        <CallUs/>
         <Quote line = "Leave it on Blue Waves to make any event truly memorable"/> 
         <Client/>
         <Work/>
